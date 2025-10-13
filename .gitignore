@@ -82,3 +82,6 @@ cube/cube.elf
 cube/dms.o
 .gitignore
 cube/gl_png.o
+sh4zam_balls/sh4zam.elf
+.gitignore
+sh4zam_balls/main.o
