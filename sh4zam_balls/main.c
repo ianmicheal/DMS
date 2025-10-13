@@ -15,7 +15,7 @@
 
 shz_mat4x4_t stored_projection_view = {0};
 
-#define NUM_BALLS 94
+#define NUM_BALLS 85
 #define SPHERE_STACKS 20
 #define SPHERE_SLICES 20
 
@@ -195,7 +195,7 @@ int main(int argc, char **argv) {
     const float SPACING_Y = 4.0f;
     const float START_X = -((GRID_COLS-1) * SPACING_X) / 2.0f;
     const float START_Y = -((GRID_ROWS-1) * SPACING_Y) / 2.0f;
-    const float BASE_Z = 30.0f;
+    const float BASE_Z = 35.0f;
     
     int idx = 0;
     for (int y = 0; y < GRID_ROWS; y++) {
